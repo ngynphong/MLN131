@@ -56,7 +56,7 @@ const magazineContent = {
     {
       type: 'spread',
       left: {
-        imageUrl: 'https://icdn.dantri.com.vn/thumb_w/960/2019/06/10/bai-2-xoi-mon-long-tin-cua-nhan-dan-1-1560176602269.jpg',
+        imageUrl: 'https://a.tcnn.vn/uploads/resources/truonghq/images/thamnhung12-5.jpg',
         caption: 'Tham nhũng làm xói mòn lòng tin và gây bất ổn xã hội.'
       },
       right: {
