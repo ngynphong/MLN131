@@ -89,6 +89,25 @@ const magazineContent = {
         caption: 'Sức mạnh của nhân dân là yếu tố quyết định thắng lợi.'
       }
     },
+    // Trang 10-11: Giá trị thực tiễn của sản phẩm
+    {
+      type: 'spread',
+      left: {
+        imageUrl: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+        caption: 'Sản phẩm không chỉ là công cụ giáo dục mà còn góp phần xây dựng xã hội công bằng.'
+      },
+      right: {
+        title: 'Giá trị thực tiễn của sản phẩm',
+        subtitle: 'Chuyển hóa lý luận thành ứng dụng thực tiễn',
+        isList: true,
+        content: [
+          '📌 Giáo dục pháp luật: Công cụ truyền thông hiện đại, phổ biến kiến thức dễ tiếp cận, đổi mới phương pháp tuyên truyền sinh động.',
+          '📌 Thúc đẩy quyền và trách nhiệm công dân: Trao quyền phát hiện/tố cáo, nâng cao ý thức và trách nhiệm xã hội.',
+          '📌 Củng cố niềm tin xã hội: Làm rõ quyết tâm chính trị "không vùng cấm", tạo sức đề kháng xã hội chống tham nhũng.',
+          // '📌 Kết luận: Chuyển hóa kiến thức lý thuyết thành công cụ ứng dụng, góp phần nâng cao nhận thức và trách nhiệm công dân.'
+        ]
+      }
+    },
     // Trang cuối
     {
       type: 'back-cover',
