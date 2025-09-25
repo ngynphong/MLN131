@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Magazine Flip Animation */
+.magazine-container {
+  perspective: 2000px;
+}
+
+.magazine-pages {
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.page-flip {
+  transform: rotateY(-180deg);
+}
+
+.page-shadow {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom scrollbar for magazine */
+.magazine-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.magazine-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.magazine-scroll::-webkit-scrollbar-thumb {
+  background: #8B0000;
+  border-radius: 3px;
+}
+
+.magazine-scroll::-webkit-scrollbar-thumb:hover {
+  background: #B22222;
+}
